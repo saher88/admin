@@ -1,0 +1,21 @@
+<h1>Users</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% User.all.each do |article| %>
+      <tr>
+        <td>
+          <%= article.email %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

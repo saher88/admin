@@ -1,0 +1,34 @@
+{
+  "admin/application.js": "/admin-packs/js/admin/application-fce5f2a4daeddef125af.js",
+  "admin/application.js.map": "/admin-packs/js/admin/application-fce5f2a4daeddef125af.js.map",
+  "admin/stylesheets/application.js": "/admin-packs/js/admin/stylesheets/application-c80995b847cf14a36f72.js",
+  "admin/stylesheets/application.js.map": "/admin-packs/js/admin/stylesheets/application-c80995b847cf14a36f72.js.map",
+  "admin/stylesheets/navbar.js": "/admin-packs/js/admin/stylesheets/navbar-a1b02c616021f3b4abe2.js",
+  "admin/stylesheets/navbar.js.map": "/admin-packs/js/admin/stylesheets/navbar-a1b02c616021f3b4abe2.js.map",
+  "entrypoints": {
+    "admin/application": {
+      "js": [
+        "/admin-packs/js/admin/application-fce5f2a4daeddef125af.js"
+      ],
+      "js.map": [
+        "/admin-packs/js/admin/application-fce5f2a4daeddef125af.js.map"
+      ]
+    },
+    "admin/stylesheets/application": {
+      "js": [
+        "/admin-packs/js/admin/stylesheets/application-c80995b847cf14a36f72.js"
+      ],
+      "js.map": [
+        "/admin-packs/js/admin/stylesheets/application-c80995b847cf14a36f72.js.map"
+      ]
+    },
+    "admin/stylesheets/navbar": {
+      "js": [
+        "/admin-packs/js/admin/stylesheets/navbar-a1b02c616021f3b4abe2.js"
+      ],
+      "js.map": [
+        "/admin-packs/js/admin/stylesheets/navbar-a1b02c616021f3b4abe2.js.map"
+      ]
+    }
+  }
+}

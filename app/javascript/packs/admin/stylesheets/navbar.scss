@@ -1,0 +1,60 @@
+.navbar {
+  padding: 0.1rem 0.5rem;
+
+  .search {
+    width: 30rem;
+  }
+  .navbar-brand {
+    margin-left: 0.5rem;
+
+    .large img {
+      height: 2.3rem;
+    }
+
+    .small img {
+      display: none;
+    }
+
+    .badge {
+      position: absolute;
+      top: 3rem;
+      font-size: 0.5rem;
+    }
+  }
+  .dropdown-menu {
+    min-width: 7.5rem;
+    .dropdown-item {
+      padding: 0.25rem 0.7rem !important;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 75rem) and (min-width: 64rem) {
+  .navbar {
+    .search {
+      width: 20rem;
+    }
+  }
+}
+
+@media (max-width: 64rem) {
+  .navbar {
+    .search {
+      width: 20rem;
+    }
+
+    .navbar-brand {
+      .large {
+        display: none;
+      }
+
+      .small img {
+        width: 2.4em;
+        display: block;
+        margin-top: -0.0625rem
+      }
+    }
+  }
+}
+

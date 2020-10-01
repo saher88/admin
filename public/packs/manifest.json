@@ -1,0 +1,34 @@
+{
+  "admin/application.js": "/packs/js/admin/application-90eb64d3b7590dcc7616.js",
+  "admin/application.js.map": "/packs/js/admin/application-90eb64d3b7590dcc7616.js.map",
+  "admin/stylesheets/application.js": "/packs/js/admin/stylesheets/application-0bdf692d287fbc798621.js",
+  "admin/stylesheets/application.js.map": "/packs/js/admin/stylesheets/application-0bdf692d287fbc798621.js.map",
+  "admin/stylesheets/navbar.js": "/packs/js/admin/stylesheets/navbar-a5e4fb456ee86ce83763.js",
+  "admin/stylesheets/navbar.js.map": "/packs/js/admin/stylesheets/navbar-a5e4fb456ee86ce83763.js.map",
+  "entrypoints": {
+    "admin/application": {
+      "js": [
+        "/packs/js/admin/application-90eb64d3b7590dcc7616.js"
+      ],
+      "js.map": [
+        "/packs/js/admin/application-90eb64d3b7590dcc7616.js.map"
+      ]
+    },
+    "admin/stylesheets/application": {
+      "js": [
+        "/packs/js/admin/stylesheets/application-0bdf692d287fbc798621.js"
+      ],
+      "js.map": [
+        "/packs/js/admin/stylesheets/application-0bdf692d287fbc798621.js.map"
+      ]
+    },
+    "admin/stylesheets/navbar": {
+      "js": [
+        "/packs/js/admin/stylesheets/navbar-a5e4fb456ee86ce83763.js"
+      ],
+      "js.map": [
+        "/packs/js/admin/stylesheets/navbar-a5e4fb456ee86ce83763.js.map"
+      ]
+    }
+  }
+}
