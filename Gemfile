@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'webpacker', '~> 4.x'
+gem 'webpacker', '~> 5.x'
 gem 'jquery-rails'
 # Declare your gem's dependencies in admin.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

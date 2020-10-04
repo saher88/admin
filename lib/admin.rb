@@ -9,6 +9,10 @@ module Admin
         root_path: ROOT_PATH,
         config_path: ROOT_PATH.join("config/webpacker.yml")
       )
-    end
+      end
+
+    puts ("sasdasdasdasdasdasdasdasd")
   end
 end
+
+puts Admin.webpacker.config.to_json

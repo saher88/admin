@@ -1,5 +1,7 @@
 module Admin
   class Engine < ::Rails::Engine
+    ROOT_PATH = Pathname.new(File.join(__dir__, ".."))
+
     isolate_namespace Admin
 
     initializer "admin.assets.precompile" do |app|
@@ -23,7 +25,7 @@ module Admin
 
     config.app_middleware.use(
       Rack::Static,
-      urls: ["/packs"], root: "admin/public"
+      urls: ["/packs"], root: ROOT_PATH.join("/public")
     )
   end
 end
