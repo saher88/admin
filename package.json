@@ -2,7 +2,7 @@
   "engines": {
     "node": "14.8.0"
   },
-  "name": "admin",
+  "name": "admin_engine",
   "private": true,
   "dependencies": {
     "@chenfengyuan/datepicker": "^1.0.9",

@@ -5,7 +5,7 @@ module Admin
     isolate_namespace Admin
 
     initializer "admin.assets.precompile" do |app|
-        app.config.assets.precompile += %w( *.js *.css )
+      app.config.assets.precompile += %w( admin/application.js admin/application.css )
     end
 
     initializer "webpacker.proxy" do |app|
@@ -22,10 +22,5 @@ module Admin
           webpacker: Admin.webpacker
         )
     end
-
-    config.app_middleware.use(
-      Rack::Static,
-      urls: ["/packs"], root: ROOT_PATH.join("/public")
-    )
   end
 end
