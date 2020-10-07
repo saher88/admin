@@ -20,8 +20,7 @@
     "popper.js": "^1.16.1",
     "rails-erb-loader": "^5.5.2",
     "toastr": "^2.1.4",
-    "webpack": "^4.43.0",
-    webpack-clear-console: ^1.0.3
+    "webpack": "^4.43.0"
   },
   "version": "0.1.0",
   "devDependencies": {
