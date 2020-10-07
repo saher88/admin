@@ -22,5 +22,10 @@ module Admin
           webpacker: Admin.webpacker
         )
     end
+
+    config.app_middleware.use(
+      Rack::Static,
+      urls: ["/admin-packs"], root: "admin/public"
+    )
   end
 end
