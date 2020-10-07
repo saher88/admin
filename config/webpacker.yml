@@ -3,7 +3,7 @@
 default: &default
   source_path: app/javascript
   source_entry_path: packs
-  public_root_path: ../loan_manager/public
+  public_root_path: public
   public_output_path: admin-packs
   cache_path: tmp/cache/webpacker
   check_yarn_integrity: false
@@ -61,8 +61,8 @@ development:
     env_prefix: "ADMIN_WEBPACKER_DEV_SERVER"
     https: false
     host: localhost
-    port: 3036
-    public: localhost:3036
+    port: 3035
+    public: localhost:3035
     hmr: false
     # Inline should be set to true if using HMR
     inline: true

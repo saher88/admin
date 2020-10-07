@@ -1,0 +1,34 @@
+{
+  "admin/application.js": "/admin-packs/js/admin/application-20670898f5d72f385367.js",
+  "admin/application.js.map": "/admin-packs/js/admin/application-20670898f5d72f385367.js.map",
+  "admin/stylesheets/application.js": "/admin-packs/js/admin/stylesheets/application-08e0d09919463931fbcf.js",
+  "admin/stylesheets/application.js.map": "/admin-packs/js/admin/stylesheets/application-08e0d09919463931fbcf.js.map",
+  "admin/stylesheets/navbar.js": "/admin-packs/js/admin/stylesheets/navbar-7b79f33aecf0b4903ec7.js",
+  "admin/stylesheets/navbar.js.map": "/admin-packs/js/admin/stylesheets/navbar-7b79f33aecf0b4903ec7.js.map",
+  "entrypoints": {
+    "admin/application": {
+      "js": [
+        "/admin-packs/js/admin/application-20670898f5d72f385367.js"
+      ],
+      "js.map": [
+        "/admin-packs/js/admin/application-20670898f5d72f385367.js.map"
+      ]
+    },
+    "admin/stylesheets/application": {
+      "js": [
+        "/admin-packs/js/admin/stylesheets/application-08e0d09919463931fbcf.js"
+      ],
+      "js.map": [
+        "/admin-packs/js/admin/stylesheets/application-08e0d09919463931fbcf.js.map"
+      ]
+    },
+    "admin/stylesheets/navbar": {
+      "js": [
+        "/admin-packs/js/admin/stylesheets/navbar-7b79f33aecf0b4903ec7.js"
+      ],
+      "js.map": [
+        "/admin-packs/js/admin/stylesheets/navbar-7b79f33aecf0b4903ec7.js.map"
+      ]
+    }
+  }
+}
